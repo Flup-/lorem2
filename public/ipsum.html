@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body{
+            background-color: darkgrey;
+        }
+        h1{
+            padding-top: 50px;
+            color: white;
+            font-family: Tomaha;
+            text-align: center;
+            background-color: #2d57c1;
+            width: 100%;
+            height: 200px;
+        }
+        .number {
+            width: 5em;
+        }
+        .form {
+            margin-left: 37%;
+            border-radius: 10000000px;
+            background-color: white;
+            width: 10em;
+            padding: 5em;
+            position: relative;
+            bottom: 173px;
+        }
+    </style>
+</head>
+<body>
+<h1>Ipsum Generator</h1>
+<div class="form">
+    <form action="/" method="POST" autocomplete="on">
+        Topic: <input type="text" name="topic"><br>
+        Number of Paragraphs: <input class="number" type="number" name="number"><br>
+        Number of Sentences: <input class="number" type="number" name="snumber"><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+</body>
+</html>
